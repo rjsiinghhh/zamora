@@ -6,8 +6,8 @@ import {
   Switch
 } from 'react-router-dom';
 
-import Users from './users/Users';
-import Bills from './finance/Bills';
+import Users from './components/users/Users';
+import Bills from './components/finance/Bills';
 
 const App = () => {
   return(
