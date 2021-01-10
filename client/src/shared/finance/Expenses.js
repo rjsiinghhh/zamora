@@ -1,7 +1,7 @@
 import React from 'react';
 
-const Bills = () => {
+const Expenses = () => {
   return <h2>Finance Section </h2>
 };
 
-export default Bills;
+export default Expenses ;

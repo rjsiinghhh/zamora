@@ -7,7 +7,7 @@ import {
 } from 'react-router-dom';
 
 import Users from './users/Users';
-import Bills from './finance/Bills';
+import Expenses from './shared/finance/Expenses';
 
 const App = () => {
   return(
@@ -16,8 +16,8 @@ const App = () => {
        <Route path="/" exact>
          <Users />
        </Route>
-       <Route path ="/bills" exact>
-         <Bills />
+       <Route path ="/expenses" exact>
+         <Expenses />
        </Route>
        <Redirect to ="/" />
      </Switch>
