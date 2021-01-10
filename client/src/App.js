@@ -8,10 +8,13 @@ import {
 
 import Users from './users/Users';
 import Expenses from './shared/finance/Expenses';
+import MainNavigation from './shared/components/Navigation/MainNavigation';
 
 const App = () => {
   return(
-   <Router> 
+    <Router>
+    <MainNavigation />
+    <main>
      <Switch>
        <Route path="/" exact>
          <Users />
@@ -21,6 +24,7 @@ const App = () => {
        </Route>
        <Redirect to ="/" />
      </Switch>
+     </main>
    </Router>
   )
 };
