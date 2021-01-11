@@ -1,7 +1,7 @@
 import React from 'react';
 
 import UsersList from './Components/UserList';
-import Map from './Components/Map';
+
 
 const Users = () => {
     const USERS = [
@@ -19,7 +19,7 @@ const Users = () => {
     return(
       <div>
      <UsersList items={USERS} />
-     <Map />
+  
      </div>
     )
 };
