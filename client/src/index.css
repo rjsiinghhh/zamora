@@ -12,6 +12,7 @@ body {
   margin: 0;
   background:#e8eae6;
   color: white;
+  font-family: 'Courier Prime', monospace;
 }
 
 .slide-in-left-enter {

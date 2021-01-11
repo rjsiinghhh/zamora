@@ -1,9 +1,23 @@
 import React from 'react';
 
+import UsersList from './Components/UserList';
+
 const Users = () => {
-  return( <h2>Home page <br></br>nav bar that will be on both pages, logo, weather, google map api, todays work schedule, upcoming scheudle</h2>
-  
-  );
+    const USERS = [
+      {
+        id: 'u1',
+    name: 'RJ Singh',
+    place: 'Road 13 Pistachio Ranch',
+    image:
+      "https://i.imgur.com/3Wb9sVF.jpg",
+    places: 3
+  }
+  ];
+
+
+
+    return <UsersList items={USERS} />;
+
 };
 
 export default Users;
