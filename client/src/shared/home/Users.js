@@ -1,6 +1,7 @@
 import React from 'react';
 
 import UsersList from './Components/UserList';
+import Map from './Components/Map';
 
 const Users = () => {
     const USERS = [
@@ -9,15 +10,18 @@ const Users = () => {
     name: 'RJ Singh',
     place: 'Road 13 Pistachio Ranch',
     image:
-      "https://i.imgur.com/3Wb9sVF.jpg",
-    places: 3
+      "https://i.imgur.com/3Wb9sVF.jpg"
   }
   ];
 
 
 
-    return <UsersList items={USERS} />;
-
+    return(
+      <div>
+     <UsersList items={USERS} />
+     <Map />
+     </div>
+    )
 };
 
 export default Users;
