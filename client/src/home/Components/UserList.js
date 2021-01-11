@@ -1,5 +1,6 @@
 import React from 'react';
 
+
 import UserItem from './UserItem';
 import Card from '../../components/UIElements/Card';
 
@@ -22,6 +23,7 @@ const UsersList = props => {
           id={user.id}
           name={user.name}
           place ={user.place}
+          coordinate={user.location}
          
         />
       ))}
