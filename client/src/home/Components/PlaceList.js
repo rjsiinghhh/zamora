@@ -1,8 +1,8 @@
 import React from 'react';
 
-import Card from '../../components/UIElements/Card';
+import Card from '../../../components/UIElements/Card';
 import PlaceItem from './PlaceItem';
-import Button from '../../components/FormElements/Button';
+import Button from '../../../components/FormElements/Button';
 import './PlaceList.css';
 
 const PlaceList = props => {

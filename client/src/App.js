@@ -9,6 +9,8 @@ import {
 import Users from './home/Users';
 import Expenses from './finance/Expenses';
 import MainNavigation from './shared/navbar/MainNavigation';
+import PlaceItem from './home/Components/PlaceItem';
+
 
 const App = () => {
   return(
@@ -18,6 +20,7 @@ const App = () => {
      <Switch>
        <Route path="/" exact>
          <Users />
+         <PlaceItem />
        </Route>
        <Route path ="/expenses" exact>
          <Expenses />
