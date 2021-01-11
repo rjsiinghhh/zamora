@@ -1,7 +1,7 @@
 import React from 'react';
 
 import UsersList from './Components/UserList';
-import Map from '../components/UIElements/Map';
+import Map from '../home/Components/Map';
 
 const Users = () => {
     const USERS = [

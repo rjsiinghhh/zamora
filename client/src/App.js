@@ -6,9 +6,9 @@ import {
   Switch
 } from 'react-router-dom';
 
-import Users from './shared/home/Users';
-import Expenses from './shared/finance/Expenses';
-import MainNavigation from './shared/components/Navigation/MainNavigation';
+import Users from './home/Users';
+import Expenses from './finance/Expenses';
+import MainNavigation from './shared/navbar/MainNavigation';
 
 const App = () => {
   return(

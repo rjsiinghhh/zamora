@@ -1,8 +1,8 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 
-import Map from '../../components/UIElements/Map';
-import Card from '../../components/UIElements/Card';
+import Map from '../../home/Components/Map';
+import Card from '../../shared/UIElements/Card';
 
 
 const UserItem = props => {
