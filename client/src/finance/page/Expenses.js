@@ -1,5 +1,7 @@
 import React from 'react';
 
+
+import ExpenseTable from '../components/ExpenseTable';
 import './Expenses.css';
 
 const Expenses = () => {
@@ -7,7 +9,7 @@ const Expenses = () => {
     <>
   <h2>Finance Section </h2>
   <h3> d3 chart</h3>
-  <h4> table </h4>
+    <ExpenseTable />
   <h5> footer </h5>
   </>
   );
