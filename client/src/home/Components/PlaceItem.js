@@ -8,8 +8,6 @@ import './PlaceItem.css';
 
 
 
-
-
 const PlaceItem = props => {
   const [showMap, setShowMap] = useState(false);
 

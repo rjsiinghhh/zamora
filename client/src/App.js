@@ -7,7 +7,7 @@ import {
 } from 'react-router-dom';
 
 import Users from './home/Users';
-import Expenses from './finance/Expenses';
+import Expenses from './finance/page/Expenses';
 import MainNavigation from './shared/navbar/MainNavigation';
 import PlaceItem from './home/Components/PlaceItem';
 

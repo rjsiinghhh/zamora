@@ -10,8 +10,8 @@ const PlaceList = props => {
     return (
       <div className="place-list center">
         <Card>
-          <h2>Nothing to Manage? </h2>
-          <Button to="/">Get Set Up</Button>
+          <h2>No places found. Maybe create one?</h2>
+          <button>Share Place</button>
         </Card>
       </div>
     );
@@ -23,6 +23,7 @@ const PlaceList = props => {
         <PlaceItem
           key={place.id}
           id={place.id}
+          image={place.imageUrl}
           title={place.title}
           description={place.description}
           address={place.address}
