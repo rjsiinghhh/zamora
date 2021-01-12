@@ -2,7 +2,7 @@ import React from 'react';
 
 
 import ExpenseTable from '../components/ExpenseTable';
-import './Expenses.css';
+
 
 const Expenses = () => {
   return( 

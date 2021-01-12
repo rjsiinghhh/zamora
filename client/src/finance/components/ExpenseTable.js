@@ -6,31 +6,33 @@ import './ExpenseTable.css';
 const ExpenseTable = () => {
     return(
         <div className="table">
-    <Table striped bordered hover variant="dark">
+<Table responsive>
   <thead>
     <tr>
-      <th>Date</th>
-      <th>Description</th>
-      <th>Amount</th>
+      <th>#</th>
+      {Array.from({ length: 12 }).map((_, index) => (
+        <th key={index}>Table heading</th>
+      ))}
     </tr>
   </thead>
   <tbody>
     <tr>
-  
-      <td>Mark</td>
-      <td>Otto</td>
-      <td>@mdo</td>
+      <td>1</td>
+      {Array.from({ length: 12 }).map((_, index) => (
+        <td key={index}>Table cell {index}</td>
+      ))}
     </tr>
     <tr>
-     
-      <td>Jacob</td>
-      <td>Thornton</td>
-      <td>@fat</td>
+      <td>2</td>
+      {Array.from({ length: 12 }).map((_, index) => (
+        <td key={index}>Table cell {index}</td>
+      ))}
     </tr>
     <tr>
-     
-      <td colSpan="2">Larry the Bird</td>
-      <td>@twitter</td>
+      <td>3</td>
+      {Array.from({ length: 12 }).map((_, index) => (
+        <td key={index}>Table cell {index}</td>
+      ))}
     </tr>
   </tbody>
 </Table>
