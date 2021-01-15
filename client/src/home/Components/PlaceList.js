@@ -2,6 +2,7 @@ import React from 'react';
 
 import Card from '../../../components/UIElements/Card';
 import PlaceItem from './PlaceItem';
+import UserPlaces from './UserPlaces';
 import Button from '../../../components/FormElements/Button';
 import './PlaceList.css';
 
@@ -23,7 +24,6 @@ const PlaceList = props => {
         <PlaceItem
           key={place.id}
           id={place.id}
-          image={place.imageUrl}
           title={place.title}
           description={place.description}
           address={place.address}
