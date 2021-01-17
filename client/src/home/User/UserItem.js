@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 
-import Map from '../../home/Components/Map';
+import Map from '../Components/Map';
 import Card from '../../shared/UIElements/Card';
 
 
